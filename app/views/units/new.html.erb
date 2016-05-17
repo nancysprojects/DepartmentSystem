@@ -1,0 +1,16 @@
+<h1>New Department</h1>
+<%= form_for :unit, url: units_path do |f| %>
+  <p>
+    <%= f.label :deptcode %><br>
+    <%= f.text_field :deptcode %>
+  </p>
+
+  <p>
+    <%= f.label :deptname %><br>
+    <%= f.text_area :deptname %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

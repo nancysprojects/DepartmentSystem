@@ -1,0 +1,20 @@
+{
+  "name": "department",
+  "homepage": "https://github.com/nancysprojects/DepartmentSystem",
+  "authors": [
+    "nancysprojects <onehhappynancy@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
